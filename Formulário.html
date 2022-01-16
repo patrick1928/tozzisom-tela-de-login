@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>pagina de registros</title>
+		<link rel="stylesheet" href="Registros.css">
+		
+	</head>
+	<body>
+		<div class="conteiner">
+		<form>
+			<p>Comece digitando seu nome</p>
+			<input type="text" id="name" class="inputres" placeholder="Thiago,Gabriela...">
+			<p>agora digite seu Email</p>
+			<input type="email" id="email" class="inputres" placeholder="example123@gmail.com" >
+			<p>número de telefone</p>
+			<input type="tel" id="tel" class="inputres" placeholder="(32)91234-5678" maxlength="8"required minlength="8"required>
+			<p>senha <br><span>(a senha deve possuir 6-digitos)</span></p>
+			<input type="password" id="pass" placeholder="******" minlenght="6"required maxlength="6"required>
+			<p>data de nascimento</p>
+			<input type="date" id="nasc">
+			<br>
+			<input type="checkbox" id="terms">
+			<label for="terms"> eu confirmo que li e aceito os <a href="#">termos</a></label>
+		  <br>
+		  <input type="button" id="res" value="Registrar-se">
+		</form>
+		</div>
+		<footer>
+			<p>by Patrick marquezini</p>
+		</footer>
+		<script src="registros.js" type="module"></script>
+	</body>
+</html>

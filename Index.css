@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	height: 100vw;
+	display: flex;
+	background: #dddddd;
+}
+#menu{
+	font-size: 25pt;
+	color: #ffffff;
+	position: absolute;
+	z-index: 100;
+	left: 15px;
+	top: 10px;
+}
+#check{
+	display: none;
+}
+#check:checked ~.sidebar{
+	left: 0px;
+}
+header{
+	width: 100vw;
+	height: 75px;
+	background: linear-gradient(to bottom, #000000, #020167);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 4px black;
+  z-index: 10;
+}
+#logo{
+	width: 70pt;
+	position: absolute;
+}
+div.sidebar{
+	
+	margin-top: 150px;
+	width: 220px;
+	height: 100vh;
+	background: #ffffff;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 0 8px 8px 0;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	left: -280px;
+	transition: all .6s ease;
+	z-index: 5;
+}
+.sidebar ul{
+	list-style: none;
+  text-transform: uppercase;
+}
+.sidebar ul li{
+	clear: both;
+margin-bottom: 10px;	
+align-items: left;
+}
+div#conteiner{
+	position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 80px;
+  margin-left: 5%;
+  width: 90%;
+	height: 420px;
+	box-shadow: 1px 1px 3px #606060;
+	background: #ffffff;
+	
+}
+#conteiner h1{
+	font-size: 30pt;
+	position: absolute;
+	top: 0px;
+	
+	font-family: 'corinthia' ,cursive;
+  text-shadow: 1px 1px 1px black;
+  
+	}
+	#conteiner p.title{
+		font-size: 15pt;
+		color: rgba(0, 0, 100, 1);
+	}
+	#conteiner p#pass{
+		margin-top: 25px;
+	  }
+	 #conteiner p#registre{
+	  	margin: 15px;
+	    font-size: 8pt;
+	    text-decoration: underline;
+	  	}
+	 #conteiner p#registre a{
+	 	color: rgba(0, 0, 100, 1);
+	 }
+	#conteiner input.btntext{
+		width: 200px;
+		height: 20px;
+		transition: all .6s ease;
+		border-bottom: 2px solid #dddddd;
+	}
+	#conteiner input:focus{
+		outline: none;
+		border-bottom: 2px solid rgba(0, 0, 100, 1);
+	}
+	input#login{
+		font-size: 15pt;
+		margin-top: 15px;
+		width: 120px;
+		padding: 8px;
+		background: rgba(0, 0, 100, 1);
+		color: #ffffff;
+	}

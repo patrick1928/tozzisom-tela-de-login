@@ -1,3 +1,3 @@
 # tozzisom-tela-de-login
 
-<h1>Este nao é o projeto original tozzisom eletro Musical E Informatica, e sim apenas um teste </h2>
+<p style="font-size: 10pt;">Este nao é o projeto original <strong>tozzisom eletro Musical E Informatica</strong>, e sim apenas um teste </p>

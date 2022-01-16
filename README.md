@@ -1,6 +1,6 @@
 # tozzisom-tela-de-login
-<body style="background: white;">
-<p style="font-size: 10pt; color: black;">lembre-se este nao é o site oficial da <strong>tozziSom Eletro Musica E Informatica</strong> este e apenas um projeto para praticar o conhecimento em <strong>html5, css3 & Javascript</strong> </p>
+<body style="background: black; color: #ffffff; text-align: center;">
+<p style="font-size: 10pt; color: #dddddd;">lembre-se este não é o site oficial da <strong>Tozzi-Som Eletro Musica E Informatica</strong> este é apenas um projeto para praticar o conhecimento em <strong>html5, css3 & Javascript</strong> </p>
 <footer style=" font-size: 8pt; font-family: 'sanSerif' ,Arial;">
 <p>create by <u>"Patrick Marquezini Soares Martins"</u></p>
 </footer>

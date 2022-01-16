@@ -1,5 +1,5 @@
 var btn = document.getElementById('login');
-var user=[];
+var user= import ;
 btn.addEventListener('click', function (){
 	let name = document.getElementById('user-name').value;
 	if (name == ""){
